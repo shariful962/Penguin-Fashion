@@ -30,9 +30,45 @@
         }
       </style>
 </head>
-<body>
-    <header>
-        
+<body class="font-Roboto">
+    <header class="container md:container mx-auto">
+        <nav class="flex justify-between items-center h-[100px]">
+            <div class="brand flex gap-3 items-center ml-3 lg:ml-0">
+                <div class="logo">
+                    <img class="w-20" src="assets/logo1.png" alt="header-loto">
+                </div>
+                <h1 class="font-Montserat text-2xl text-[#A4BC46]">
+                    Penguin <span class="text-text2">Fashion</span>
+                </h1>
+            </div>
+            <div class="menu hidden lg:block">
+                <ul class="flex items-center">
+                    <li class="mr-12"><a class="text-base font-medium text-[#3C3C3C]" href="#">Home</a></li>
+                    <li class="mr-12"><a class="text-base font-medium text-[#3C3C3C]" href="#">Product</a></li>
+                    <li class="mr-12"><a class="text-base font-medium text-[#3C3C3C]" href="#">About Us</a></li>
+                    <li class="mr-12"><a class="text-base font-medium text-[#3C3C3C]" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="menu-icon lg:hidden mr-3 lg:mr-0">
+                <span class="text-3xl text-[#3C3C3C] cursor-pointer"><i class="fa-solid fa-bars"></i></span>
+            </div>
+        </nav>
+        <div class="banner flex flex-col lg:flex-row justify-between items-center">
+            <div class="banner-left ml-3 lg:ml-0">
+                <h1 class="font-Bebas font-normal leading-none text-[5rem] text-Orange">
+                    Be the Penguins <br> <span class="text-text2">of Winter</span>  
+                </h1>
+                <p class="max-w-[355px] leading-6 text-textMain mb-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <button class="btn text-white bg-gradient-to-b from-[#A4BC46] to-[#85A019]"><span><i class="fa-solid fa-cart-shopping"></i></span> BUY NOW</button>
+            </div>
+            <div class="banner-right">
+                <div class="">
+                    <img class="z-10" src="assets/model.png" alt="banner-image">
+                </div>
+            </div>
+        </div>
     </header>
     <main></main>
     <footer></footer>
